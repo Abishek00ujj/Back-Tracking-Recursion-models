@@ -1,10 +1,10 @@
 # Recursion-models
-#question
+## Question
 ![image](https://github.com/user-attachments/assets/e9fd59ae-464a-4b4b-ace3-bdfe10173884)
 
 
-#code
-```
+## Code
+```java
 import java.util.*;
 public class Main{
     static int count=0;

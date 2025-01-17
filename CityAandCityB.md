@@ -1,5 +1,6 @@
 ## City A and City B
 
+![Screenshot 2025-01-17 205921](https://github.com/user-attachments/assets/95528258-888c-4b4c-88b3-38202934f71b)
 
 
 ```java

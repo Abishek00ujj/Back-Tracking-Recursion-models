@@ -1,6 +1,7 @@
 
 ## Pair Factors
 
+![image](https://github.com/user-attachments/assets/5f103edb-081d-4cdf-947d-02624f2d8900)
 
 ```java
 import java.util.*;

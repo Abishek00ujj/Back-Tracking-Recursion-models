@@ -71,6 +71,6 @@ public class Main{
         }
     }
 }
+![image](https://github.com/user-attachments/assets/1d2894eb-c25c-49d2-957a-fa4657b17a61)
 
-![image](https://github.com/user-attachments/assets/3db1ad35-8048-4595-b89a-17f13cde74bd)
 

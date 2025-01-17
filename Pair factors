@@ -1,0 +1,28 @@
+
+## Pair Factors
+
+
+```java
+import java.util.*;
+public class Main{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        long n=sc.nextLong();
+        long ans=Long.MAX_VALUE;
+        long sum=0;
+        long dummy=n;
+        for(long i=1;i*i<=n;i++)
+        {
+            if(n%i==0)
+            {
+                long A=i;
+                long B=n/i;
+                sum=(A+B);
+                ans=Math.min(sum,ans);
+            }
+        }
+        System.out.println(ans);
+    }
+}
+

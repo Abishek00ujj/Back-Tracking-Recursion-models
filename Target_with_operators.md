@@ -33,7 +33,7 @@ public class Main
             return;
         }
         if(subset.size()>(n+(n-1))) return;
-        if(target>=sum-arr[index])
+        if(target>=sum+arr[index])
         {
             subset.add("+");
             subset.add(String.valueOf(arr[index]));
@@ -50,7 +50,7 @@ public class Main
             subset.remove(subset.size()-2);
             subset.remove(subset.size()-1);
         }
-        if(target>=sum-arr[index])
+        if(target>=sum/arr[index])
         {
             subset.add("/");
             subset.add(String.valueOf(arr[index]));
@@ -58,7 +58,7 @@ public class Main
             subset.remove(subset.size()-2);
             subset.remove(subset.size()-1);
         }
-        if(target>=sum-arr[index])
+        if(target>=sum*arr[index])
         {
             subset.add("*");
             subset.add(String.valueOf(arr[index]));
